@@ -1,7 +1,13 @@
 Overview 
 
 Description: The goal of this project aims to use a neural network to model and optimize beam steering in the Linac to Undulator (LTU) section of the LCLS to minimize beam offsets at the BPMs. 
-The neural network will represent a function mapping the following inputs to the output beam
+The neural network will represent a function mapping the following inputs to the output beam. This demonstrates using a neural network model trained on real LCLS LTU data to optimize
+beam steering. The model learns to map quad and corrector settings to BPM offsets. By
+minimizing prediction error, the trained model can optimize inputs to precisely steer the beam.
+The optimized parameters can be safely tested in Bmad simulation prior to online deployment.
+This combines machine learning with physics modeling to improve LCLS LTU beam steering
+dynamics.
+
 
 Inputs:
 
