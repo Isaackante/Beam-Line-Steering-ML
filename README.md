@@ -23,6 +23,9 @@ Model Performance:
 
 After training the MyModel neural network, it's important to assess its performance on unseen data to ensure its generalization ability. The model evaluation metrics used for this regression task are Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE). MAE represents the average absolute difference between the predicted and true values. MSE measures the average squared difference between predicted and true values. RMSE is the square root of the MSE and provides a measure of the average magnitude of the errors. These evaluation metrics provide a comprehensive view of how well the model is performing on the test or validation set. When interpreting these metrics, consider the scale of your target variable to understand the practical implications of the errors.
 
+Publication: Machine Learning for Beamline Steering 
+https://doi.org/10.48550/arXiv.2311.07519
+
 Maintainer: Isaac Kante 
 Email: Isaackante@gmail.com 
 LinkedIn: www.linkedin.com/in/isaac-kante-474b48204
